@@ -169,3 +169,18 @@ opacity: 40%
 .overlay:hover{ opacity: 0%;
 }
 
+ .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: linear-gradient(to top, #7c857c,#7c857c00);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 200%;
+    display: flex;
+    }
+
+.foot {
+    color: #b90505;
+
+padding-right: 5%;}
