@@ -117,22 +117,13 @@ display: flex;
 
 .wrap2 
 {
-    width: 200px;
-    height:200px;
-    
+    width: 150px;
+    height:150px;
+    display: inline-block;
     
     
  }
- .wrap 
-{
-    width: 600px;
-    height:600px;
-    position: relative;
-    left: 65%;
-    top: -5%;
 
-    
- }
  .footer {
     padding-left: 10%;
     padding-right: 10%;
