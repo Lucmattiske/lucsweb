@@ -1,0 +1,90 @@
+p2 {font-size: 20pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body {
+    background-image: linear-gradient(to bottom,#232426, #435343,#1c1224);
+    margin: 0%;
+}
+
+
+
+
+
+
+
+
+/* This is our header ---------*/
+header {
+padding: 0%;
+background-image: linear-gradient(to bottom, #435343,#c7cef600);
+align-items: center;
+display: flex;
+}
+#nav1:hover{ text-decoration: underline 2px;color: rgb(65, 255, 192);
+}
+#nav2:hover{ text-decoration: underline 2px;color:  rgb(65, 255, 192);
+}
+#nav3:hover{ text-decoration: underline 2px;color:  rgb(65, 255, 192);
+}
+#nav4:hover{ text-decoration: underline 2px; color: rgb(65, 255, 192);
+}
+
+
+/* Nav classifies individual buttons in header*/
+#nav,#nav1,#nav2,#nav3,#nav4 {
+    color: black;
+    
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    text-decoration:none;
+
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+#nav {font-size:150%; text-align: center;
+    
+}
+#logo {  padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+/*---------------------------------*/
+
+.project_description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%; 
+    width: 500px;
+    text-align: justify;
+    text-align-last: left;
+    line-height: 250%;
+    
+}
+.Page_Break{
+    height: 100px;
+}
+
+main {text-align: center;}
+.Page{
+    background-color: #fffaee;
+    padding: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+
+
+
+}
+
+.observertile {
+    width: 350px;
+}
+
