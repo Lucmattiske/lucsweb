@@ -76,7 +76,7 @@ display: flex;
     line-height: 200%;
     
     text-decoration:none;
-    display:flex;
+    
     
 }
 
@@ -88,6 +88,7 @@ display: flex;
     color: #060ae4;
     position: absolute;
     margin-right: 10%;
+    
 
 
 
@@ -118,7 +119,8 @@ display: flex;
 {
     width: 200px;
     height:200px;
-    display: inline-block;
+    
+    
     
  }
  .wrap 
