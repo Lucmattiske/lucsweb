@@ -86,8 +86,8 @@ display: flex;
     text-align-last: left;   
     max-width: 500px;
     color: #060ae4;
-    position: absolute;
     margin-right: 10%;
+    display: inline-block;
     
 
 
