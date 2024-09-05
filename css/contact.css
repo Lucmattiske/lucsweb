@@ -149,4 +149,10 @@ display: flex;
 
 padding-right: 5%;}
 
-ul {line-height: 500%;}
+ul {
+    
+    line-height: 500%;
+    color: #060ae4;
+    text-decoration:none;
+
+}
