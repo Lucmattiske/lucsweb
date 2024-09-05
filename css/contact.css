@@ -156,3 +156,6 @@ ul {
     text-decoration:none;
 
 }
+.linked:hover {
+    color: #b90505;
+}
