@@ -45,12 +45,18 @@ display: flex;
     text-decoration:none;
 
     font-size: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    
     
  }
-#nav {font-size:150%; text-align: center;
+#nav {
+    font-size:150%; 
+    text-align: center;
+    font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+    
+}
+#nav1,#nav2,#nav3,#nav4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #logo {  padding-right: 5%;
     padding-left: 5%;
