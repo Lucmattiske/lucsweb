@@ -147,6 +147,10 @@ display: flex;
 
     
 }
+a{ 
+    text-decoration: none; 
+    color: #060ae4;
+ }
 
 .foot {
     color: #b90505;
