@@ -71,7 +71,7 @@ display: flex;
 #indexmain {
 
 
-    text-align: center;
+    
     margin-left: 10%;
     margin-right: 10%;
     
@@ -79,7 +79,7 @@ display: flex;
 }
 .structure { 
 
-    text-align: center;
+    
 
     line-height: 200%;
     min-height: 650px;
