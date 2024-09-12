@@ -83,13 +83,13 @@ display: flex;
 
 main {text-align: center;}
 .Page{
-    background-color: #7c6eb9;
+    background-color: rgba(0, 0, 0, 0.65);
     padding: 5%;
     margin-bottom: 5%;
     display: inline-block;
     text-align: center;
     width: 80%;
-    color: rgb(255, 250, 177);
+    color: white;
 
 
 
