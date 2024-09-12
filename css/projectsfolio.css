@@ -3,7 +3,7 @@ p2 {font-size: 20pt;
    }
 
 body {
-    background-image: linear-gradient(to bottom,#232426, #435343,#1c1224);
+    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
     margin: 0%;
 }
 
@@ -83,12 +83,13 @@ display: flex;
 
 main {text-align: center;}
 .Page{
-    background-color: #fffaee;
+    background-color: #8980af;
     padding: 5%;
     margin-bottom: 5%;
     display: inline-block;
     text-align: center;
     width: 80%;
+    color: rgb(255, 250, 177);
 
 
 
