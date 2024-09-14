@@ -1,3 +1,5 @@
+
+
 p2 {font-size: 20pt;
     font-family: nos,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
@@ -24,9 +26,82 @@ display: flex;
 }
 #nav1:hover{ text-decoration: underline 2px;color:  #b90505;
 }
-#nav2:hover{ text-decoration: underline 2px;color:   #b90505);
+#nav2:hover{ text-decoration: underline 2px;color:   #b90505;
 }
 #nav3:hover{ text-decoration: underline 2px;color:   #b90505;
+}
+#nav4:hover{ text-decoration: underline 2px; color:  #b90505;
+}
+
+
+/* Nav classifies individual buttons in header*/
+#nav,#nav1,#nav2,#nav3,#nav4 {
+    color: black;
+    
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    text-decoration:none;
+
+    font-size: 100%;
+    
+    
+ }
+#nav {
+    font-size:150%; 
+    text-align: center;
+    font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+#nav1,#nav2,#nav3,#nav4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo {  padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+/*---------------------------------*/
+
+.project_description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 95%; 
+    max-width: 500px;
+    text-align: justify;
+    text-align-last: left;
+    line-height: 250%;
+    
+}
+.Page_Break{
+    height: 100px;
+}
+
+main {text-align: center;}
+.Page{
+    background-color: rgba(135, 173, 135, 0.227);
+    padding: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    color: #b90505;
+
+
+
+}
+.spread{
+    width: 60%; }
+
+.observertile {
+    width: 350px;
+}
 }
 #nav4:hover{ text-decoration: underline 2px; color:  #b90505;
 }
