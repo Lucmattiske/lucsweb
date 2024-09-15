@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #d5daf9, #fff3e1, #f2f3e2);
+    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
     margin: 0;
 }
 
@@ -157,6 +157,12 @@ h5 { font-size: 18pt; }
 .footwrap {
     padding-top: 5%;
 }
+
+.foot {
+    color: #b90505;
+    padding-right: 5%;
+}
+
 
 .foot {
     color: #b90505;
