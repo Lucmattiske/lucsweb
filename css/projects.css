@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
+    background-image: linear-gradient(to bottom, #d5daf9, #fff3e1, #f2f3e2, );
     margin: 0;
 }
 
@@ -13,49 +13,64 @@ p2 {
     src: url(OPTICenturyExpandedTwo.otf);
 }
 
-/* Header */
 header {
-    padding: 0;
-    background-image: linear-gradient(to bottom, #435343, #43534300);
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #435343,#c7cef600);
     align-items: center;
     display: flex;
-}
-
-/* Navigation */
-#nav1:hover,
-#nav2:hover,
-#nav3:hover,
-#nav4:hover {
-    text-decoration: underline 2px;
-    color: #b90505;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-#nav, #nav1, #nav2, #nav3, #nav4 {
-    color: black;
-    padding: 2% 5% 5%;
-    text-decoration: none;
-    font-size: 100%;
-}
-
-#nav {
-    font-size: 150%;
-    text-align: center;
-    font-family: nos, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#nav1, #nav2, #nav3, #nav4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#logo {
-    padding: 3% 5%;
+    }
+    #nav1:hover{ text-decoration: underline 2px;color:  #b90505;
+    }
+    #nav2:hover{ text-decoration: underline 2px;color:   #b90505;
+    }
+    #nav3:hover{ text-decoration: underline 2px;color:   #b90505;
+    }
+    #nav4:hover{ text-decoration: underline 2px; color:  #b90505;
+    }
     
-}
+    
+    /* Nav classifies individual buttons in header*/
+    #nav,#nav1,#nav2,#nav3,#nav4 {
+        color: black;
+        
+        padding: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        text-decoration:none;
+    
+        font-size: 100%;
+        
+        
+     }
+    #nav {
+        font-size:150%; 
+        text-align: center;
+        font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        
+    }
+    #nav1,#nav2,#nav3,#nav4 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #logo {  padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+    
 
 /* Headings */
-h4 { font-size: 20pt; }
-h5 { font-size: 18pt; }
+h4 {
+    font-size: 20pt;
+}
+
+h5 {
+    font-size: 18pt;
+}
 
 /* Positioning */
 #pos {
@@ -63,7 +78,7 @@ h5 { font-size: 18pt; }
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    
+
 }
 
 #content2 {
@@ -104,19 +119,28 @@ h5 { font-size: 18pt; }
     display: inline-block;
     position: relative;
     margin: 2%;
-    max-width: 400px;   /* Container has a maximum width of 400px */
-    width: 100%;        /* Make the container responsive to the parent width */
-    height: 250px;      /* Constant height */
-    overflow: hidden;   /* Prevent overflow */
+    max-width: 400px;
+    /* Container has a maximum width of 400px */
+    width: 100%;
+    /* Make the container responsive to the parent width */
+    height: 250px;
+    /* Constant height */
+    overflow: hidden;
+    /* Prevent overflow */
 }
 
-#img, #img2 {
-    width: 100%;        /* Image width will always fit the container's width */
-    height: 100%;       /* Image height will stretch to the container's height */
-    object-fit: cover;  /* Ensure the image fills the entire container */
+#img,
+#img2 {
+    width: 100%;
+    /* Image width will always fit the container's width */
+    height: 100%;
+    /* Image height will stretch to the container's height */
+    object-fit: cover;
+    /* Ensure the image fills the entire container */
     opacity: 80%;
     position: relative;
 }
+
 #imagelabel {
     position: absolute;
     bottom: 43%;
@@ -162,7 +186,6 @@ h5 { font-size: 18pt; }
     color: #b90505;
     padding-right: 5%;
 }
-
 
 .foot {
     color: #b90505;
