@@ -186,6 +186,9 @@ h5 {
     color: #b90505;
     padding-right: 5%;
 }
+@media only screen and (max-width: 1200px) {
+    #nav4 {
+        display: none;
 
 .foot {
     color: #b90505;
