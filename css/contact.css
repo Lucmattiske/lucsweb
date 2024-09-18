@@ -159,3 +159,7 @@ a{
 padding-right: 5%;}
 
 ul {line-height: 500%;}
+
+@media only screen and (max-width: 1200px) {
+    #nav4 {
+        display: none;
