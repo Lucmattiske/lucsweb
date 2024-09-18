@@ -84,7 +84,7 @@ display: flex;
     line-height: 200%;
     
     text-decoration:none;
-    display:flex;
+    display: inline-block;
     
 }
 
@@ -94,6 +94,7 @@ display: flex;
 
     text-align: justify; 
     text-align-last: left;   
+    
 
     max-width: 500px;
     margin-right: 10%;
@@ -119,11 +120,7 @@ display: flex;
     rotate: 11deg;
     
 }
-.star2 {width: 600px;
-    
-    rotate: 240deg;
-    
-}
+
 
 .wrap2 
 {
@@ -165,3 +162,13 @@ padding-right: 5%;}
     margin-top:5%}
 
 ul {line-height: 500%;}
+@media only screen and (max-width: 1200px) {
+    .star {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #nav4 {
+        display: none;
+    }
+}
