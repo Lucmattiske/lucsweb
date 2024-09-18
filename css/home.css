@@ -1,13 +1,13 @@
 body {
-    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
+    background-image: linear-gradient(to bottom, #d5daf9, #fff3e1, #f2f3e2, );
     margin: 0%;
-    
-    
-
-    
+    overflow-x: hidden;
 }
-p2 {font-size: 20pt;
-    font-family: nos,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+p2 {
+    font-size: 20pt;
+    font-family: nos, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 @font-face {
     font-family: nos;
@@ -16,129 +16,144 @@ p2 {font-size: 20pt;
 
 /* This is our header ---------*/
 header {
-padding: 0%;
-background-image: linear-gradient(to bottom, #435343,#43534300);
-align-items: center;
-display: flex;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #435343, #43534300);
+    align-items: center;
+    display: flex;
 }
-#nav1:hover{ text-decoration: underline 2px;color: #b90505;
+
+#nav1:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav2:hover{ text-decoration: underline 2px;color:  #b90505;
+
+#nav2:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav3:hover{ text-decoration: underline 2px;color:    #b90505;
+
+#nav3:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav4:hover{ text-decoration: underline 2px; color:  #b90505;
+
+#nav4:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
 
 /* Nav classifies individual buttons in header*/
-#nav,#nav1,#nav2,#nav3,#nav4 {
+#nav,
+#nav1,
+#nav2,
+#nav3,
+#nav4 {
     color: black;
-    
+
     padding: 2%;
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 5%;
-    text-decoration:none;
+    text-decoration: none;
 
     font-size: 100%;
-    
-    
- }
-#nav {
-    font-size:150%; 
-    text-align: center;
-    font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
+
+
 }
-#nav1,#nav2,#nav3,#nav4 {
+
+#nav {
+    font-size: 150%;
+    text-align: center;
+    font-family: nos, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#nav1,
+#nav2,
+#nav3,
+#nav4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#logo {  padding-right: 5%;
+
+#logo {
+    padding-right: 5%;
     padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 5%;
 
 }
-/* --------------------*/
 
-
-/* This is our main --------- */
-/* very simple */
+/* ----------------------------------------------- */
+/* ---------------- Structure of our index--------------------- */
 #indexmain {
 
-
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-
-}
-#starpos {position: absolute; 
-    width: 600px;
-    height:600px;
-}
-.structure { 
-
-    text-align: center;
-
-    line-height: 200%;
-    
-    text-decoration:none;
     display: inline-block;
-    
-    
+    align-items: center;
+    width: 100%;
+
+    /* align items to center */
 }
 
-.content {  
+.structure {
+    position: relative;
+    /* Establishes positioning context */
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 200%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* Define width if needed */
+
+}
+
+
+.content {
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
-    text-align: justify; 
-    text-align-last: left;   
-    
-
+    text-align: justify;
+    text-align-last: left;
     max-width: 500px;
-    margin-right: 10%;
+    /* Restrict max width for content */
+    width: 100%;
+    /* Ensure content stretches within the container */
     color: #060ae4;
-    
-    
 
 }
-.images {
-    background-color: black;
-}
-.indeximg {
-    width: 120px;
 
-}
-#anchor1 {text-decoration: none; 
-    color: black;
-}
-
+/* ----------------------------------------------- */
+/* ---------------- Locating and placing image--------------------- */
 
 .star {
     width: 600px;
-    rotate: 200deg;
-    
+    rotate: 25deg;
+}
+
+.wrap {
+    position: absolute;
+    /* Positioned relative to .structure */
+    top: -20px;
+    /* Adjust to position .wrap above .content */
+    transform: translateX(-30%);
+    /* Center horizontally */
+    z-index: 10;
+    /* Ensure .wrap is above .content */
+    /* Add any additional styling as needed */
 }
 
 
+/* ----------------------------------------------- */
 
- .wrap 
-{
-    width: 600px;
-    height:600px;
+.footer {
     position: relative;
-    right: -350px;
-    top: -500px;
-
-    
- }
- .footer {
+    bottom: -30%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
@@ -146,48 +161,48 @@ display: flex;
     background-image: linear-gradient(to top, #7c857c,#7c857c00);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 200%;
-    display: flex;
     
-
     
 }
+a{ 
+    text-decoration: none; 
+    color: #060ae4;
+ }
 
 .foot {
     color: #b90505;
+    display: inline-block;
 
 padding-right: 5%;}
 
-.footwrap {
-    margin-top:5%}
-
 ul {line-height: 500%;}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
+
+    /* as screen gets narrower star dissapears*/
     .star {
         display: none;
         width: 0%;
-        
     }
+
     #nav4 {
         display: none;
     }
+
     #starpos {
         display: none;
         width: 0;
         height: 0;
-        
+
     }
-    
+
 }
 
 
 
 
 @media only screen and (max-width: 450px) {
-    .structure {
-        min-height: 800px;
-        
-    }
+
     p2 {
         font-size: 15pt;
     }
