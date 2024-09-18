@@ -102,3 +102,6 @@ main {text-align: center;}
 .observertile {
     width: 350px;
 }
+@media only screen and (max-width: 1200px) {
+    #nav4 {
+        display: none;
