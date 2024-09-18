@@ -162,4 +162,12 @@ ul {line-height: 500%;}
 
 @media only screen and (max-width: 1200px) {
     #nav4 {
-        display: none;
+        display: none;}
+
+    @media only screen and (max-width: 450px) {
+
+    p2 {
+        font-size: 15pt;
+    }
+
+
