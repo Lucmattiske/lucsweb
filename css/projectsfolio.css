@@ -104,15 +104,30 @@ main {text-align: center;}
 }
 @media only screen and (max-width: 1200px) {
     #nav4 {
-        display: none;
+        display: none;}}
 
  @media only screen and (max-width: 450px) {
 
     p2 {
         font-size: 15pt;
-    }
+    }}
 
 
+#observer,
+#bee,
+#logan,
+#airaware,
+#botanical,
+#mycelium,
+#bauhaus,
+#rcc,
+#drought,
+#cmag,
+#drawing,
+#dynamic,
+#habitecture,
+#ganggang {
+    scroll-margin-top: 100px;
 }
 
-        
+
