@@ -1,11 +1,11 @@
-
-
-p2 {font-size: 20pt;
-    font-family: nos,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
+p2 {
+    font-size: 20pt;
+    font-family: nos, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #060ae4;
+}
 
 body {
-    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
+    background-image: linear-gradient(to bottom, #d5daf9, #fff3e1, #f2f3e2, );
     margin: 0%;
 }
 
@@ -19,99 +19,140 @@ body {
 
 /* This is our header ---------*/
 header {
-padding: 0%;
-background-image: linear-gradient(to bottom, #435343,#c7cef600);
-align-items: center;
-display: flex;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #435343, #c7cef600);
+    align-items: center;
+    display: flex;
 }
-#nav1:hover{ text-decoration: underline 2px;color:  #b90505;
+
+#nav1:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav2:hover{ text-decoration: underline 2px;color:   #b90505;
+
+#nav2:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav3:hover{ text-decoration: underline 2px;color:   #b90505;
+
+#nav3:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
-#nav4:hover{ text-decoration: underline 2px; color:  #b90505;
+
+#nav4:hover {
+    text-decoration: underline 2px;
+    color: #b90505;
 }
 
 
 /* Nav classifies individual buttons in header*/
-#nav,#nav1,#nav2,#nav3,#nav4 {
+#nav,
+#nav1,
+#nav2,
+#nav3,
+#nav4 {
     color: black;
-    
+
     padding: 2%;
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 5%;
-    text-decoration:none;
+    text-decoration: none;
 
     font-size: 100%;
-    
-    
- }
-#nav {
-    font-size:150%; 
-    text-align: center;
-    font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
+
+
 }
-#nav1,#nav2,#nav3,#nav4 {
+
+#nav {
+    font-size: 150%;
+    text-align: center;
+    font-family: nos, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#nav1,
+#nav2,
+#nav3,
+#nav4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#logo {  padding-right: 5%;
+
+#logo {
+    padding-right: 5%;
     padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 5%;
 }
-
 /*---------------------------------*/
-
-.project_description {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    font-size: 95%; 
-    max-width: 500px;
-    text-align: justify;
-    text-align-last: left;
-    line-height: 250%;
-    
-}
-.Page_Break{
-    height: 100px;
-}
-
-main {text-align: center;}
-.Page{
-    background-color: rgba(228, 176, 92, 0.373);
+/*---------------------------------*/
+/*---------------------------------*/
+/*-Page itself*/
+.Page {
+    background-color: rgba(0, 0, 0, 0.685);
     padding: 5%;
     margin-bottom: 5%;
     display: inline-block;
     text-align: center;
     width: 80%;
-    color: #b90505;
-
-
-
+    color: #060ae4;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Slight shadow effect */
+    width: 70%;
+    margin-bottom: 20%;
+    
 }
-.spread{
-    width: 60%; }
+/*---------------------------------*/
+/*-Card which textbox sits on*/
+.project_description {
+
+    font-size: 95%;
+    max-width: 100%;
+    line-height: 250%;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
+    padding: 4%;
+    margin-bottom: 20px;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center children horizontally */
+}
+/*---------------------------------*/
+/*-wapping text*/
+.textbox {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 95%;
+    max-width: 600px;
+    width: 100%; /* Optional, ensures full width up to max-width */
+    text-align: justify;
+    text-align-last: left;
+    line-height: 250%;
+    padding: 5%;
+    margin: 0 auto; /* Center horizontally */
+}
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.Page_Break {
+    height: 0px;
+}
+
+main {
+    text-align: center;
+}
+
+
+
+.spread {
+    width: 80%;
+}
 
 .observertile {
-    width: 350px;
+    width: 40%
 }
-@media only screen and (max-width: 1200px) {
-    #nav4 {
-        display: none;}}
-
- @media only screen and (max-width: 450px) {
-
-    p2 {
-        font-size: 15pt;
-    }}
-
 
 #observer,
 #bee,
@@ -129,5 +170,135 @@ main {text-align: center;}
 #ganggang {
     scroll-margin-top: 100px;
 }
+
+#scrollToTopBtn {
+    position: fixed; /* Stays in the same place even when scrolling */
+    top: 20px; /* Position from the bottom of the screen */
+    right: 20px;
+    width: 20%;
+    
+    
+    color: white; /* Button text color */
+    border: none; /* Remove default button border */
+
+    padding: 15px 0px; /* Button padding */
+    font-size: 12px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+
+
+
+    background: rgb(42, 42, 42);
+    border: none;
+    outline: none;
+    box-shadow: none; 
+
+    font-family: Cambria, Cochin, Georgia, Times,  serif;
+
+    border-radius: 5px; /* Rounded corners */
+
+
+    
+}
+
+#scrollToTopBtn:hover {
+    background-color: rgba(255, 255, 255, 0.606);
+    color: #b90505;
+    text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+#go {padding-top: 5%;}
+#fixedNavButton {
+    position: fixed; /* Sticks the button to the top */
+    top: 70px; /* Position from the bottom of the screen */
+    right: 20px;
+
+
+    background-color:  #000000aa; /* Button background color */
+    
+    color: white; /* White text */
+    width: 20%;
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1000; /* Ensure it stays above other content */
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+
+#fixedNavButton a {
+    color: white;
+    text-decoration: none; 
+    margin: 0 10px; /* Spacing between links */
+    
+}
+
+#fixedNavButton a:hover {
+    text-decoration: underline;
+    color: #b90505;
+
+}
+
+.hideable {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+button {    
+    background: rgb(42, 42, 42);
+    border: none;
+    outline: none;
+    box-shadow: none; 
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    border-radius: 5px; /* Rounded corners */
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.606);
+    color: #b90505;
+    text-decoration: underline;
+
+}
+.hideable:hover {
+    background-color: rgba(255, 255, 255, 0.606);
+    color: #b90505;
+    text-decoration: underline;
+
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* Sample styling for section content */
+
+
+@media only screen and (max-width: 450px) {
+
+    p2 {
+        font-size: 15pt;
+    }
+
+
+}
+@media only screen and (max-width: 1000px) {
+
+    .rightnav {
+        display: none;
+    }
+
+
+}
+
 
 
