@@ -283,14 +283,17 @@ button:hover {
 /* Sample styling for section content */
 
 
+
 @media only screen and (max-width: 450px) {
 
     p2 {
         font-size: 15pt;
     }
-
+    page {width: 90%;}
 
 }
+
+
 @media only screen and (max-width: 1000px) {
 
     .rightnav {
