@@ -296,6 +296,9 @@ button:hover {
     .rightnav {
         display: none;
     }
+    .observertile {
+        width: 80%
+    }
 
 
 }
