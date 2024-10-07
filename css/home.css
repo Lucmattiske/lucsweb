@@ -105,11 +105,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    line-height: 200%;
+    line-height: 300%;
     text-decoration: none;
     display: flex;
     justify-content: center;
     width: 80%;
+    font-size: 10.5pt;
     /* Define width if needed */
 
 }
