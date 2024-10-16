@@ -377,8 +377,14 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba
 
 }
 
+
 @media only screen and (max-width: 450px) {
     p2 {font-size: 15pt; }
+    
+    #nav4 {display: none;}
+    header {height:150px}
+    .star4 {display: none;}
+
 
 }
 
