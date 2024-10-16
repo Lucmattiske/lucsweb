@@ -269,6 +269,11 @@ h5 {
 
 }
 
+.star4 {
+    width: 100px;
+    rotate: 240deg;
+
+}
 #containertext2 :hover { transform: rotate(360deg);
 cursor: pointer;
 background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba(237, 39, 39, 0));
@@ -377,7 +382,6 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba
 
 }
 
-
 @media only screen and (max-width: 450px) {
     p2 {font-size: 15pt; }
     
@@ -391,5 +395,7 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
 /*-----------------------------------------------------------------------------------------------------------------*/
+
+
 
 
