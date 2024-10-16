@@ -1,13 +1,17 @@
 body {
-    background-image: linear-gradient(to bottom, #d5daf9,#fff3e1,#f2f3e2,);
+
     margin: 0%;
-    
-    
+    overflow-x: hidden;
+    background-color: white;
 
     
 }
-p2 {font-size: 20pt;
-    font-family:'nos', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+p2 {   
+
+    font-family: nos;
+    color: #b90505;
+    font-size: 20pt;
+}
 @font-face {
     font-family: nos;
     src: url(OPTICenturyExpandedTwo.otf);
@@ -17,9 +21,10 @@ p2 {font-size: 20pt;
 /* This is our header ---------*/
 header {
 padding: 0%;
-background-image: linear-gradient(to bottom, #435343,#43534300);
+background-image: linear-gradient(to bottom, #395f39, #c7cef600);
 align-items: center;
 display: flex;
+height: 200px;
 }
 #nav1:hover{ text-decoration: underline 2px;color: #b90505;
 }
@@ -47,7 +52,7 @@ display: flex;
     
  }
 #nav {
-    font-size:150%; 
+    font-size: 150%; 
     text-align: center;
     font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
@@ -56,7 +61,8 @@ display: flex;
 #nav1,#nav2,#nav3,#nav4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#logo {  padding-right: 5%;
+#logo {  
+    padding-right: 5%;
     padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
@@ -68,10 +74,11 @@ display: flex;
 
 /* This is our main --------- */
 /* very simple */
+
 #indexmain {
 
 
-    
+padding-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -94,7 +101,7 @@ display: flex;
     text-align-last: left;   
     max-width: 500px;
     margin-right: 10%;
-    color: #060ae4;
+    color:  #b90505
     
 }
 
@@ -115,6 +122,12 @@ display: flex;
     rotate: 11deg;
     
 }
+
+.star1 {width: 600px;
+    
+    rotate: -30deg;
+    
+}
 .star2 {width: 100px;
     
     rotate: 240deg;
@@ -122,34 +135,28 @@ display: flex;
 }
 
 
- .wrap2 
-{
-    
-    
 
-    
-    
-
-    
- }
  .footer {
-    position: relative;
-    bottom: -30%;
+
+    background-image: linear-gradient(to top, #395f3957, #c7cef600);
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-image: linear-gradient(to top, #7c857c,#7c857c00);
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 200%;
     
-    
+
+    align-items: center;
+    display: flex;
+    height: 100px;
 
     
 }
 a{ 
     text-decoration: none; 
-    color: #060ae4;
+    color:  #b90505
  }
 
 .foot {
@@ -162,12 +169,8 @@ ul {line-height: 500%;}
 
 @media only screen and (max-width: 1200px) {
     #nav4 {
-        display: none;}
+        display: none;}}
 
-    @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 
-    p2 {
-        font-size: 15pt;
-    }
-
-
+    p2 {font-size: 15pt; }}
