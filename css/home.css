@@ -291,6 +291,10 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba
     #containertext2 .star2 {
         transition: 3s ease;
     }
+    #containertext2 .star4 {
+        transition: 3s ease;
+    }
+
 
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
