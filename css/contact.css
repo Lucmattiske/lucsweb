@@ -169,8 +169,33 @@ ul {line-height: 500%;}
 
 @media only screen and (max-width: 1200px) {
     #nav4 {
-        display: none;}}
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .star1 {
+        width: 300px;
+    }
+}
 
 @media only screen and (max-width: 450px) {
+    p2 {
+        font-size: 15pt;
+    }
 
-    p2 {font-size: 15pt; }}
+    .star1 {
+        width: 250px;
+    }
+
+    #nav4 {
+        display: none;
+    }
+
+    header {
+        height: 150px
+    }
+
+
+
+}
