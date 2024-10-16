@@ -188,6 +188,7 @@ h5 {
     color: #ff0000;
     transition: transform 1s ease-in-out;
     padding: 20px;
+    opacity: 80%;
 }
 
 
