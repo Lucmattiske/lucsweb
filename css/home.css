@@ -1,198 +1,372 @@
 body {
-    background-image: linear-gradient(to bottom, #d5daf9, #fff3e1, #f2f3e2, );
+
     margin: 0%;
     overflow-x: hidden;
+    background-color: white;
+    
+    
+    
 }
 
-p2 {
-    font-size: 20pt;
-    font-family: nos, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
+/* Title Fonts ---------*/
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
 
 @font-face {
     font-family: nos;
     src: url(OPTICenturyExpandedTwo.otf);
 }
 
+p2 {
+    font-size: 20pt;
+    font-family: nos;
+    color: #b90505
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a :hover {
+    color: #b90505
+}
+
+
+
+
 /* This is our header ---------*/
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
+
 header {
     padding: 0%;
-    background-image: linear-gradient(to bottom, #435343, #43534300);
+    background-image: linear-gradient(to bottom, #395f39, #c7cef600);
     align-items: center;
     display: flex;
+    height: 200px;
+    
+    }
+    #nav1:hover{ text-decoration: underline 2px;color: #b90505;
+    }
+    #nav2:hover{ text-decoration: underline 2px;color:  #b90505;
+    }
+    #nav3:hover{ text-decoration: underline 2px;color:    #b90505;
+    }
+    #nav4:hover{ text-decoration: underline 2px; color:  #b90505;
+    }
+    
+    /* Nav classifies individual buttons in header*/
+    #nav,#nav1,#nav2,#nav3,#nav4 {
+        color: black;
+        
+        padding: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        text-decoration:none;
+    
+        font-size: 100%;
+        
+        
+     }
+    #nav {
+        font-size:150%; 
+        text-align: center;
+        font-family: nos,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        
+    }
+    #nav1,#nav2,#nav3,#nav4 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #logo {  padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    
+    }
+    /* --------------------*/
+    
+    
+/* Headings */
+/*-----------------------------------------------------------------------------------------------------------------*/
+h4 {
+    font-size: 20pt;
 }
 
-#nav1:hover {
-    text-decoration: underline 2px;
-    color: #b90505;
+h5 {
+    font-size: 18pt;
 }
 
-#nav2:hover {
-    text-decoration: underline 2px;
-    color: #b90505;
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
+/* Main grid Content */
+
+.indeximg {
+    width: 500px;
+    margin: 5%;
+    text-align: right;
 }
 
-#nav3:hover {
-    text-decoration: underline 2px;
-    color: #b90505;
-}
-
-#nav4:hover {
-    text-decoration: underline 2px;
-    color: #b90505;
-}
-
-/* Nav classifies individual buttons in header*/
-#nav,
-#nav1,
-#nav2,
-#nav3,
-#nav4 {
-    color: black;
-
-    padding: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 3%;
-    padding-bottom: 5%;
-    padding-left: 5%;
+#anchor1 {
     text-decoration: none;
-
-    font-size: 100%;
-
-
+    color: black;
 }
 
-#nav {
-    font-size: 150%;
+#projectsmain {
     text-align: center;
-    font-family: nos, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
+    background-image: linear-gradient(to bottom, #17ff36, #08620a, #87de6c, );
 }
 
-#nav1,
-#nav2,
-#nav3,
-#nav4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#logo {
-    padding-right: 5%;
-    padding-left: 5%;
+#imagegrid {
+    display: inline-block;
+    width: 80%;
+    
     padding-top: 3%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-
 }
 
-/* ----------------------------------------------- */
-/* ---------------- Structure of our index--------------------- */
-#indexmain {
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* grid box wrap*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+#container {
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    max-width: 400px;
+    /* Container has a maximum width of 400px */
+    width: 100%;
+    /* Make the container responsive to the parent width */
+    height: 250px;
+    /* Constant height */
+    overflow: hidden;
+    /* Prevent overflow */
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* first Box wrap*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+#containertext {
 
     display: inline-block;
-    align-items: center;
-    width: 100%;
-
-    /* align items to center */
-}
-
-.structure {
-    position: relative;
-    /* Establishes positioning context */
-
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    line-height: 200%;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    font-size: 10.5pt;
-    /* Define width if needed */
-
-}
-
-
-.content {
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
+    max-width: 400px;
+    height: 100px;
     text-align: justify;
     text-align-last: left;
-    max-width: 500px;
-    /* Restrict max width for content */
+    line-height: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10.5pt;
     width: 100%;
-    /* Ensure content stretches within the container */
-    color: #060ae4;
+    height: 100%;
+    color: #b90505
+
 
 }
-
-/* ----------------------------------------------- */
-/* ---------------- Locating and placing image--------------------- */
-
-.star {
-    width: 600px;
-    rotate: 25deg;
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* second box wrap*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+#containertext2 {
+    display: inline-block;
+    margin: 2%;
+    max-width: 400px;
+    height: 100px;
+    text-align: justify;
+    text-align-last: left;
+    line-height: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10.5pt;
+    width: 100%;
+    height: 100%;
+    color: #ff0000;
+    transition: transform 1s ease-in-out;
+    padding: 20px;
 }
 
 
-.wrap {
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* images*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+#img,
+#img2 {
+    width: 100%;
+    /* Image width will always fit the container's width */
+    height: 100%;
+    /* Image height will stretch to the container's height */
+    object-fit: cover;
+    /* Ensure the image fills the entire container */
+    opacity: 80%;
+    position: relative;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+#imagelabel {
     position: absolute;
-    /* Positioned relative to .structure */
-    top: 0px;
-    right: -150px;
-    /* Adjust to position .wrap above .content */
+    bottom: 10%;
+    left: 5%;
 
-    /* Center horizontally */
-    z-index: 10;
-    /* Ensure .wrap is above .content */
-    /* Add any additional styling as needed */
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    text-align: center;
+    font-size: 100%;
+
+    font-family: nCambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* controls the image label on grid box*/
+.anchormenu {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* overlay itself*/
+.overlay {
+    background-color: #45121236;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 250px;
+    transition: opacity 0.3s ease;
 }
 
 
-/* ----------------------------------------------- */
+.overlay:hover {
+    opacity: 0;
+}
+
 
 .footer {
-    position: relative;
-    bottom: -30%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-image: linear-gradient(to top, #7c857c,#7c857c00);
+    padding: 3% 10%;
+    background-image: linear-gradient(to top, #7c857c, #7c857c00);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 200%;
-    
-    
+    display: flex;
 }
-a{ 
-    text-decoration: none; 
-    color: #060ae4;
- }
+
+.footwrap {
+    padding-top: 5%;
+}
 
 .foot {
     color: #b90505;
+    padding-right: 5%;
+}
+
+.foot {
+    color: #b90505;
+    padding-right: 5%;
+}
+
+.star2 {
+    width: 100px;
+    rotate: 240deg;
+
+}
+
+#containertext2 :hover { transform: rotate(360deg);
+cursor: pointer;
+background-image: radial-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.035),rgba(237, 39, 39, 0));
+}
+
+
+.star {
+    position: fixed;
+    transform: translate(-50%, 5%); /* Adjust to center it properly */
+        width: 600px; /* Set the star size */
+        opacity: 1; /* Adjust transparency if needed */
+        rotate: 140deg;
+    }
+
+    #containertext2 .star2 {
+        transition: 3s ease;
+    }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* Acknowledgement of country*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contentover { 
+    text-align: center;
+
     display: inline-block;
+}
 
-padding-right: 5%;}
+.overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b90505;
+    z-index: 1000; 
 
-ul {line-height: 500%;}
+}
+
+.content2 {
+
+    font-size: 10.5pt;
+    line-height: 200%;
+
+    max-width:700px;
+    text-align: justify;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+
+    margin: 10%;
+
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/* End Quieries*/
+
+@media only screen and (max-width: 1200px) {
+
+
+    #face {
+        display: none;
+    }
+
+    #containertext {
+        margin-bottom: 5%;
+    }
+}
+
 
 @media only screen and (max-width: 800px) {
 
     /* as screen gets narrower star dissapears*/
     .star {
-        display: none;
-        width: 0%;
+        transform: translate(-20%, 5%);
+        /* Adjust to center it properly */
+        width: 70%;
     }
 
-    #nav4 {
-        display: none;
-    }
+
 
     #starpos {
         display: none;
@@ -203,14 +377,13 @@ ul {line-height: 500%;}
 
 }
 
-
-
-
 @media only screen and (max-width: 450px) {
-
-    p2 {
-        font-size: 15pt;
-    }
-
+    p2 {font-size: 15pt; }
 
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
