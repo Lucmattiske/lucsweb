@@ -9,11 +9,26 @@
     <link href="css/home.css" rel="stylesheet" type="text/css">
      <!-- redirect to new website -->
 <meta http-equiv="refresh" content="0; url=https://www.lucmattiske.org/">
-    
+     <style>
+    /* Full-screen black overlay */
+    #black-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      opacity: 0;
+      transition: opacity 0.5s ease; /* Fade-in effect */
+      z-index: 1000; /* Ensures it's above other content */
+    }
+  </style>
 </head>
 
 <body>
-
+    
+ 
+     <div id="black-overlay"></div>
     <header>
 
         <p id="nav" href="index.html">
